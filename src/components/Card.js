@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/styles.css'
-import '../colorado.png'
+import ImageFilter from 'react-image-filter';
 
 class Card extends React.Component {
   constructor(props) {
@@ -49,19 +49,25 @@ class Card extends React.Component {
   }
 
   getLabelBack() {
+    const style = { color: 'black', fontSize: 12}
     let question = <div>{this.props.question.question}</div> 
     if(this.props.question.question){
+      let hint = this.props.question.hint ? "Hint" : ""
       question = this.props.question.question.split("\n").map((question, index) => {
-      return <div key={index}>{question}</div>
+      return <div key={index}>{question}<p style={style}>{hint}</p></div>
       })
     }
     if(this.props.question.image){
-      question = <div><img style={{tintColor: 'gray'}} src={this.props.question.image}/></div>
+      question = <div><ImageFilter image={this.props.question.image} filter={'grayscale'}/></div>
     }
-    if(this.state.revealHint){
+    if(this.state.revealHint && this.props.question.question){
       let currQuestion = question
       question = <div>{currQuestion}<p style={{color:"black"}}>{this.props.question.hint}</p></div>
+    } else if (this.state.revealHint && this.props.question.image){
+      question = <div><img src={this.props.question.image}/></div>
     }
+    
+
       return this.state.view === 'question'
         ? question
         : <div>{this.props.question.answer}</div>

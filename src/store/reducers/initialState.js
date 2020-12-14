@@ -5,9 +5,8 @@ export default {
       "questions": [
         {
           "points": "Final Jeopardy",
-          "question": "insert question here",
-          "answer": "insert answer here",
-          "image": "../colorado.png"
+          "image": "https://2.bp.blogspot.com/-xbxRya2HDg8/T9Hka1L1FzI/AAAAAAAAAAs/t5XERL_EC6o/s1600/krpnY.jpg",
+          "answer": "Bure, Gretzky, Kariya, Jagr, Lemieux, Lindros and Howe",
         },
       ]
     },
@@ -25,21 +24,25 @@ export default {
           {
             "points": 200,
             "question": "The first goalie to win 300 games without winning the Stanley Cup (374)",
+            "hint": "Went from Rangers to Florida Panthers in 1993 Expansion Draft",
             "answer": "John Vanbiesbrouk"
           },
           {
             "points": 300,
             "question": "The first (and only) NHL team to kill a live animal during a hockey game",
+            "hint": "1975 Fog",
             "answer": "Buffalo Sabres, 1975 (Jim Lorentz)"
           },
           {
             "points": 400,
             "question": "The first expansion team to win back-to-back Stanley Cups",
+            "hint": "1970s",
             "answer": "Philadelphia Flyers (1974, 1975)"
           },
           {
             "points": 500,
             "question": "The first (and only) team to draft a player who didn't exist",
+            "hint": "1970s",
             "answer": "Buffalo Sabres, 1974 (Taro Tsujimoto)"
           }
         ]
@@ -49,28 +52,32 @@ export default {
         "questions": [
           {
             "points": 100,
-            "question": "This team has the most regular season games",
+            "question": "This team has the most regular season games (total)",
+            "hint":"Toronto Maples Leafs had 6730",
             "answer": "Montreal Canadiens (6731)",
-            "comment": "Toronto Maples Leafs had 6730"
           },
           {
             "points": 200,
             "question": "This team won the most playoff games by an expansion team in their inaugural season",
+            "hint": "13 wins",
             "answer": "Vegas Golden Knights (13)"
           },
           {
             "points": 300,
-            "question": "The team with the most shootout wins",
+            "question": "The team with the most shootout wins (total)",
+            "hint": "82 wins",
             "answer": "New York Islanders (82)"
           },
           {
             "points": 400,
-            "question": "The team with the most shootout losses",
+            "question": "The team with the most shootout losses (total)",
+            "hint": "95",
             "answer": "Florida Panthers (95)"
           },
           {
             "points": 500,
-            "question": "This team leads the NHL franchises in losses",
+            "question": "This team leads the NHL franchises in losses (total)",
+            "hint": "2815 losses",
             "answer": "Toronto Maple Leafs (2815)"
           }
         ]
@@ -93,6 +100,7 @@ export default {
             "points": 300,
             "question": "This team has won this many games, setting the record for Most Consecutive Playoff Games Won",
             "answer": "Pittsburgh Penguins (14)",
+            "hint": "Streak started with three straight wins against the New York Rangers, four against Boston, four against Chicago, then three straight against New Jersey. The streak with a 4–1 loss to New Jersey",
             "comment": "Streak started on May 9, 1992 with three straight wins against the New York Rangers, four against Boston, four against Chicago in the Final, then three straight against New Jersey the next year. The streak would end on April 25, 1993 with a 4–1 loss to New Jersey"
           },
           {
@@ -103,7 +111,7 @@ export default {
           },
           {
             "points": 500,
-            "question": "This is the only team since the 1968 ST. Louis. Blues to enter the STanley Cup Finals with a negative goal differential in the post-season",
+            "question": "This is the only team since the 1968 ST. Louis. Blues to enter the Stanley Cup Finals with a negative goal differential in the post-season",
             "answer": "Dallas Stars, 2020"
           }
         ]
@@ -113,7 +121,7 @@ export default {
         "questions": [
           {
             "points": 100,
-            "question": "The tam with the worst away record",
+            "question": "The team with the worst away record",
             "hint": "1–41–0; 1990s",
             "answer": "1992-1993 Ottawa Senators (1–41–0)"
           },
@@ -211,6 +219,7 @@ export default {
         {
           "points": 200,
           "question": "Last all-Canadian Stanley Cup Finals",
+          "hint": "Doug Gilmour scored the series winning goal",
           "answer": "Calgary vs. Montreal, 1988-89",
         },
         {
@@ -221,6 +230,7 @@ export default {
         {
           "points": 600,
           "question": "This team has the longest active post-season series wins drought. What team is it and how many seasons?",
+          "hint": "23 seasons",
           "answer": "Florida Panthers, 23 seasons (1995-1996)"
         },
         {
@@ -231,7 +241,8 @@ export default {
         {
           "points": 1000,
           "question": "Who was the last surviving coach of a Leaf's post-season series win",
-          "answer": " Red Kelly (died in 2019)"
+          "hint": "He passed away in 2019",
+          "answer": " Red Kelly (2019)"
         }
       ]
     },{
@@ -252,16 +263,18 @@ export default {
         {
           "points": 600,
           "question": "Most game-winning goals career",
+          "hint": "Not Gretzky",
           "answer": "Jaromir Jagr, 135"
         },
         {
           "points": 800,
-          "question": "Only once has a NHL history has a final been between a head coach and their former assistant.- which year did this happen and what were the teams",
+          "question": "Only once has a NHL history has a final been between a head coach and their former assistant - which year did this happen and what were the teams",
           "answer": "Rick Bowness (Dallas) vs. Jon Cooper (Tampa) – 2020"
         },
         {
           "points": 1000,
           "question": "The Highest drafted siblings (average)",
+          "hint": "They were drafted 1 and 2; 1980s",
           "answer": "Pierre Turgeon(1) and Sylvain Turgeon (2)"
         }
       ]
